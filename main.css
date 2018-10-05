@@ -1,0 +1,20 @@
+body {
+  background-color: #42f4cb;
+}
+
+h1 {
+  color:#414ff4;
+  font-family: 'Indie Flower';
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: #4185f4;
+  font-family: 'Indie Flower';
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Indie Flower';
+}
