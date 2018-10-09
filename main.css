@@ -23,3 +23,36 @@ p {
   font-size: 20px;
   font-family: 'Indie Flower';
 }
+
+img{
+  max-width: 100%;
+}
+
+img.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    color: #000000;
+    font-family: 'Indie Flower';
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+
+  h2 {
+    color: #4185f4;
+    font-family: 'Indie Flower';
+    }
+    
+  p {
+    font-size: 20px;
+    font-family: 'Indie Flower';
+    }
+  }
+
+
+  }
