@@ -9,13 +9,13 @@ body {
 h1 {
   color:#000000;
   font-family: 'Indie Flower';
-  font-size: 50px;
+  font-size: 40px;
   margin: 0;
   text-align: center;
 }
 
 ul{
-  list-style: none;
+  list-style-type: none;
   font-family: 'Indie Flower';
   margin: 0;
   padding: 0;
@@ -24,19 +24,27 @@ ul{
 }
 
 li{
-  float: left;
+  display: inline-block;
 }
 
 a{
-  display: block;
-  text-align: center;
+  display:block;
   padding: 8px;
   background-color: #e6eaf2;
+}
+
+li a{
+  padding: 14px 210px;
   text-decoration: none;
+
+}
+
+li a:hover{
+  background-color: #c9ced6
 }
 
 h2 {
-  color: #4185f4;
+  color: #000000;
   font-family: 'Indie Flower';
 }
 
