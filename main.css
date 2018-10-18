@@ -53,7 +53,7 @@ p {
   font-family: 'Indie Flower';
 }
 
-img{
+img {
   max-width: 100%;
   display: block;
   padding-top: 10px;
@@ -87,7 +87,7 @@ img.center{
     font-family: 'Indie Flower';
     }
 
-  ul{
+  ul {
     list-style-type: none;
     font-family: 'Indie Flower';
     margin: 0;
@@ -96,18 +96,18 @@ img.center{
     text-align: center;
     }
 
-  li{
+  li {
     display: inline-block;
     }
 
-  a{
+  a {
     display:block;
     padding: 8px;
     background-color: #e6eaf2;
     }
 
-  li a{
-    padding: 14px 10px;
+  li a {
+    padding: 10px 10px;
     text-decoration: none;
   }
 
