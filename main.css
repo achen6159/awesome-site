@@ -34,7 +34,7 @@ a{
 }
 
 li a{
-  padding: 14px 210px;
+  padding: 14px 200px;
   text-decoration: none;
 
 }
@@ -86,7 +86,10 @@ img.center{
     font-size: 20px;
     font-family: 'Indie Flower';
     }
-  }
 
+  li a{
+    padding: 14px 50px;
+    text-decoration: none;
+  }
 
   }
