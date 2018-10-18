@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #fcfcfc;
   margin-left: auto;
@@ -19,12 +23,13 @@ ul{
   font-family: 'Indie Flower';
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  text-align: center;
+  width: 100%;
 }
 
 li{
   display: inline-block;
+    text-align: center;
+    width: 33%;
 }
 
 a{
@@ -33,10 +38,9 @@ a{
   background-color: #e6eaf2;
 }
 
-li a{
-  padding: 14px 200px;
+li a {
+  padding: 14px;
   text-decoration: none;
-
 }
 
 li a:hover{
@@ -68,47 +72,18 @@ img.center{
   padding-bottom: 10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   h1 {
-    color: #000000;
-    font-family: 'Indie Flower';
     font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 0;
-    }
-
-  h2 {
-    color: #4185f4;
-    font-family: 'Indie Flower';
     }
 
   p {
     font-size: 20px;
-    font-family: 'Indie Flower';
-    }
-
-  ul {
-    list-style-type: none;
-    font-family: 'Indie Flower';
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
     }
 
   li {
-    display: inline-block;
+    display: block;
+    width: 100%;
     }
 
-  a {
-    display:block;
-    padding: 8px;
-    background-color: #e6eaf2;
-    }
-
-  li a {
-    padding: 10px 10px;
-    text-decoration: none;
-  }
-
-  }
+}
