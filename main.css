@@ -28,8 +28,8 @@ ul{
 
 li{
   display: inline-block;
-    text-align: center;
-    width: 33%;
+  text-align: center;
+  width: 33%;
 }
 
 a{
@@ -38,9 +38,10 @@ a{
   background-color: #e6eaf2;
 }
 
-li a {
+li a{
   padding: 14px;
   text-decoration: none;
+
 }
 
 li a:hover{
@@ -57,7 +58,7 @@ p {
   font-family: 'Indie Flower';
 }
 
-img {
+img{
   max-width: 100%;
   display: block;
   padding-top: 10px;
@@ -72,7 +73,7 @@ img.center{
   padding-bottom: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   h1 {
     font-size: 40px;
     }
@@ -84,6 +85,7 @@ img.center{
   li {
     display: block;
     width: 100%;
-    }
+  }
+
 
 }
