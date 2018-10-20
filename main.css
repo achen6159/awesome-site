@@ -30,6 +30,7 @@ li{
   display: inline-block;
   text-align: center;
   width: 33%;
+  padding-bottom: 30px;
 }
 
 a{
@@ -80,6 +81,7 @@ tr:hover {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+
   }
 
 table, th, td {
@@ -120,5 +122,12 @@ th {
     width: 100%;
   }
 
+  table {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  table, th, td {
+    font-size: 15px;
 
 }
