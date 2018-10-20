@@ -36,7 +36,7 @@ li{
 a{
   display:block;
   padding: 8px;
-  background-color: #e6eaf2;
+  background-color: #96dff7;
 }
 
 li a{
@@ -46,7 +46,7 @@ li a{
 }
 
 li a:hover{
-  background-color: #c9ced6
+  background-color: #56c9ef;
 }
 
 h2 {
