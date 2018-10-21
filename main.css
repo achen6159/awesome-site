@@ -52,6 +52,7 @@ li a:hover{
 h2 {
   color: #000000;
   font-family: 'Indie Flower';
+  text-align: center;
 }
 
 p {
@@ -78,6 +79,7 @@ img.center{
 h3 {
   color: #000000;
   font-family: 'Indie Flower';
+  text-align: center;
 }
 
 tr:hover {
